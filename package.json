@@ -1,0 +1,42 @@
+{
+  "name": "yelutech-server",
+  "version": "1.0.0",
+  "description": "a yelutech server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwayelu/yelutech-server.git"
+  },
+  "author": "YeLu Tech.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oluwayelu/yelutech-server/issues"
+  },
+  "homepage": "https://github.com/Oluwayelu/yelutech-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "indicative": "^7.4.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
